@@ -2,7 +2,7 @@
 
 This is a Crypto App that display's the top 20 coins in terms of marketcap.
 
-Note this is an android application. You will need an android an phone. 
+Note this is an android application. You will need an android phone. 
 You will also need the Expo App installed on android. Please click on the link
 to show how to use on android. 
 
