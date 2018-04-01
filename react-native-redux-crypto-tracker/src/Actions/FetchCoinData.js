@@ -6,7 +6,7 @@ export default function FetchCoinData() {
   return dispatch => {
     dispatch({ type: FETCHING_COIN_DATA })
 
-    return axios.get(`${apiBaseUrl}/v1/ticker/?limit=10`)
+    return axios.get(`${apiBaseUrl}/v1/ticker/?limit=20`)
       .then(res => {
         dispatch({ type: FETCHING_COIN_DATA_SUCCESS, payload: res.data })
       })
